@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plan Your Visit | Zoolondia Park</title>
+  <link rel="stylesheet" href="../css/visit.css" />
+  <script src="../js/data.js" defer></script>
+
+</head>
+
+<body>
+  <header>
+    <h1>Zoolondia National Zoologic Park</h1>
+    <p>Plan Your Visit / Buy a Ticket</p> <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav id="navigation">
+      <ul>
+        <li><a href="homepage.html" class="home">Home</a></li>
+        <li><a href="species.html" class="species">Present species</a></li>
+        <li><a href="restaurant.html" class="restaurant">Restaurant</a></li>
+        <li><a href="visit.html" class="visit">Plan your visit / buy a ticket</a></li>
+        <li><a href="events.html" class="events">Events</a></li>
+        <li><a href="contact.html" class="contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="plan">
+      <a href="#restaurant">Reserve a Table</a>
+      <a href="#booking-form">Buy Tickets</a>
+    </section>
+    <section class="visit-info">
+      <h2>Visiting Hours</h2>
+      <p>Open daily from 9:00 AM to 6:00 PM</p>
+      <p>Location: Brazzaville, Republic of the Congo</p>
+    </section>
+
+    <section class="ticket-options">
+      <h2>Ticket Options</h2>
+      <ul>
+        <li>Adult: 5,000 XAF</li>
+        <li>Child (under 12): 3,000 XAF</li>
+        <li>Senior: 4,000 XAF</li>
+        <li>Group (5+ people): 20% discount</li>
+      </ul>
+    </section>
+
+    <section id="booking-form">
+      <h2>Book Your Tickets</h2>
+      <form id="form2">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="date">Visit Date:</label>
+        <input type="date" id="date" name="date" required />
+
+        <label for="tickets">Number of Tickets:</label>
+        <input type="number" id="tickets" name="tickets" min="1" required />
+
+        <label for="type">Ticket Type:</label>
+        <select id="type" name="type">
+          <option value="adult">Adult</option>
+          <option value="child">Child</option>
+          <option value="senior">Senior</option>
+          <option value="group">Group</option>
+        </select>
+
+        <button type="submit">Buy Ticket</button>
+      </form>
+    </section>
+    <section id="restaurant">
+      <form id="form1">
+        <h2>Reserve a Table at Food Corner</h2>
+        <label for="res-name">Full Name:</label>
+        <input type="text" id="res-name" name="res-name" required />
+
+        <label for="res-email">Email Address:</label>
+        <input type="email" id="res-email" name="res-email" required />
+
+        <label for="res-date">Reservation Date:</label>
+        <input type="date" id="res-date" name="res-date" required />
+
+        <label for="res-time">Reservation Time:</label>
+        <input type="time" id="res-time" name="res-time" required />
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required />
+
+        <button type="submit">Reserve Table</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zoolondia Parc. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

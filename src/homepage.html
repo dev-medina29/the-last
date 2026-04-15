@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Homepage | Zoolondia Park</title>
+  <link rel="stylesheet" href="../css/home.css" />
+  <script src="../js/zoo.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB_RWnqBgnEDvBLdrQcDjlCli0Kc6IlQw&callback=myMap"
+    defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Zoolandia National Zoologic Park</h1>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav id="navigation">
+      <ul>
+        <li><a href="homepage.html" class="home">Home</a></li>
+        <li><a href="species.html" class="species">Present species</a></li>
+        <li><a href="restaurant.html" class="restaurant">Restaurant</a></li>
+        <li><a href="visit.html" class="visit">Plan your visit / buy a ticket</a></li>
+        <li><a href="events.html" class="events">Events</a></li>
+        <li><a href="contact.html" class="contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero">
+    <p class="banner">Welcome to the heart of nature in Brazzaville</p>
+    <div>
+      <h1 class="hero-content">Discover. Learn. Protect.</h1>
+    </div>
+  </section>
+
+  <main>
+    <section class="intro">
+      <h2>About Zoolondia</h2>
+      <p>Zoolondia Park is a vibrant zoological and botanical sanctuary located in Brazzaville. Our mission is to
+        inspire love and respect for wildlife through education, conservation, and unforgettable experiences.</p>
+      <img src="https://lesechos-congobrazza.com/images/2024C/ADAY_11.jpg" alt="zoolandia" loading="lazy">
+
+    </section>
+
+    <section>
+      <h2>Why Visit Us?</h2>
+      <ul>
+        <li>🐘 Home to over 100 species from Africa and beyond</li>
+        <li>🌿 Lush botanical gardens and shaded picnic areas</li>
+        <li>🎓 Educational programs for schools and families</li>
+        <li>🎟️ Affordable tickets and group discounts</li>
+      </ul>
+    </section>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zoolondia Parc. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>

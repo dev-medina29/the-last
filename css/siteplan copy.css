@@ -1,0 +1,74 @@
+:root{
+  --primary-color: rgb(35, 231, 35);
+  --secondary-color:black;
+  --last-color: white;
+  
+}
+*{
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+footer{
+  text-align:center;
+  color:var(--secondary-color);
+  background-color:var(--last-color);
+  padding:1rem;
+  margin-top:2rem;
+}
+body{
+  background-color:var(--primary-color);
+}
+h1,h2,h3{
+  color:var(--secondary-color);
+}
+h1{
+  text-align:center;
+  font-size:3rem;
+  margin-top:1rem;
+}
+h2{
+  text-align:center;
+  font-size:2rem;
+  margin-top:1rem;
+}
+p{
+  color:var(--secondary-color);
+}
+#navigation{
+    /* display:flex;
+    justify-content:space-around; */
+    align-items:center;
+    background-color:var(--last-color);
+}
+#navigation a{
+  text-decoration:none;
+  color:var(--secondary-color);
+  font-weight:700;
+  font-size:1.2rem;
+  padding:0.5rem;
+  display: inline;
+}
+#navigation a:hover{
+  color:var(--primary-color);
+}
+#navigation li{
+  list-style:none;
+}
+#navigation ul{
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  padding:1rem;
+  margin:0;
+}
+footer ul{
+  display:flex;
+  justify-content:center;
+  gap:1rem;
+  padding:0;
+  margin:0;
+}
+footer ul li{
+  list-style:none;
+}

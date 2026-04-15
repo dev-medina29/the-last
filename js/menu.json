@@ -1,0 +1,24 @@
+{
+  "menuItems": [
+    {
+      "label": "Home",
+      "href": "homepage.html",
+      "class": "home"
+    },
+    {
+      "label": "Present species",
+      "href": "species.html",
+      "class": "species"
+    },
+    {
+      "label": "Plan your visit / buy a ticket",
+      "href": "visit.html",
+      "class": "visit"
+    },
+    {
+      "label": "Contact us",
+      "href": "contact.html",
+      "class": "contact"
+    }
+  ]
+}

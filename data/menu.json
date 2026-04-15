@@ -1,0 +1,94 @@
+{
+  "menus": [
+    {
+      "name": "Breakfast Menu",
+      "items": [
+        { "item": "Pancakes with Maple Syrup", "price": 2500 },
+        { "item": "Scrambled Eggs & Toast", "price": 2000 },
+        { "item": "Fruit Salad Bowl", "price": 1800 },
+        { "item": "Fresh Orange Juice", "price": 1200 }
+      ]
+    },
+    {
+      "name": "Lunch Menu",
+      "items": [
+        { "item": "Grilled Chicken Sandwich", "price": 3500 },
+        { "item": "Caesar Salad", "price": 3000 },
+        { "item": "Vegetable Stir Fry", "price": 2800 },
+        { "item": "Lemonade", "price": 1000 }
+      ]
+    },
+    {
+      "name": "Dinner Menu",
+      "items": [
+        { "item": "Steak with Garlic Butter", "price": 6500 },
+        { "item": "Spaghetti Bolognese", "price": 4500 },
+        { "item": "Grilled Salmon", "price": 5500 },
+        { "item": "House Red Wine", "price": 3000 }
+      ]
+    },
+    {
+      "name": "Dessert Menu",
+      "items": [
+        { "item": "Chocolate Lava Cake", "price": 2800 },
+        { "item": "Cheesecake", "price": 2500 },
+        { "item": "Ice Cream Sundae", "price": 2000 },
+        { "item": "Fruit Tart", "price": 2200 }
+      ]
+    },
+    {
+      "name": "Drinks Menu",
+      "items": [
+        { "item": "Cappuccino", "price": 1500 },
+        { "item": "Iced Tea", "price": 1200 },
+        { "item": "Smoothies", "price": 2000 },
+        { "item": "Mineral Water", "price": 800 }
+      ]
+    },
+    {
+      "name": "Pizza Menu",
+      "items": [
+        { "item": "Margherita", "price": 3500 },
+        { "item": "Pepperoni", "price": 4000 },
+        { "item": "Vegetarian", "price": 3800 },
+        { "item": "BBQ Chicken", "price": 4200 }
+      ]
+    },
+    {
+      "name": "Burger Menu",
+      "items": [
+        { "item": "Classic Beef Burger", "price": 3000 },
+        { "item": "Cheese Burger", "price": 3200 },
+        { "item": "Veggie Burger", "price": 2800 },
+        { "item": "Double Bacon Burger", "price": 4000 }
+      ]
+    },
+    {
+      "name": "Seafood Menu",
+      "items": [
+        { "item": "Grilled Shrimp", "price": 5000 },
+        { "item": "Fish & Chips", "price": 4200 },
+        { "item": "Seafood Paella", "price": 6000 },
+        { "item": "Crab Cakes", "price": 4800 }
+      ]
+    },
+    {
+      "name": "Vegetarian Menu",
+      "items": [
+        { "item": "Veggie Wrap", "price": 2500 },
+        { "item": "Lentil Soup", "price": 2200 },
+        { "item": "Stuffed Peppers", "price": 3000 },
+        { "item": "Quinoa Salad", "price": 2800 }
+      ]
+    },
+    {
+      "name": "Kids Menu",
+      "items": [
+        { "item": "Mini Burger", "price": 2000 },
+        { "item": "Chicken Nuggets", "price": 2200 },
+        { "item": "Mac & Cheese", "price": 2500 },
+        { "item": "Apple Juice", "price": 1000 }
+      ]
+    }
+  ]
+}

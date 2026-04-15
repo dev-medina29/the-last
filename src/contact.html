@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us | Zoolondia Park</title>
+  <link rel="stylesheet" href="../css/contact.css">
+  <script src="../js/contact.js" defer></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB_RWnqBgnEDvBLdrQcDjlCli0Kc6IlQw&callback=myMap"
+    defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Zoolondia National Zoologic Park</h1>
+    <p>Contact</p>
+    <input type="checkbox" id="menu-toggle" />
+    <label for="menu-toggle" class="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+    <nav id="navigation">
+      <ul>
+        <li><a href="homepage.html" class="home">Home</a></li>
+        <li><a href="species.html" class="species">Present species</a></li>
+        <li><a href="restaurant.html" class="restaurant">Restaurant</a></li>
+        <li><a href="visit.html" class="visit">Plan your visit / buy a ticket</a></li>
+        <li><a href="events.html" class="events">Events</a></li>
+        <li><a href="contact.html" class="contact">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
+      <p>📍 Address: Avenue de la Liberté, Brazzaville, Republic of the Congo</p>
+      <p>📞 Phone: +242 06 913 1208</p>
+      <p>📧 Email: info@zoolondia.cg</p>
+      <p>🕒 Office Hours: Monday to Friday, 8:00 AM – 5:00 PM</p>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+    <div id="googleMap" style="width:100%;height:400px;"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Zoolondia Parc. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
