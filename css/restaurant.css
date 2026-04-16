@@ -158,12 +158,13 @@ header nav a {
 }
 .reserve h2 {
   text-decoration: underline;
-  color: #2e8b57;
+  color: #ffffff;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 .contact-info h2 {
   text-decoration: underline;
-  color: #2e8b57;
+  color: #ffffff;
   font-size: 1.5rem;
 }
 .contact-info p {
@@ -276,7 +277,10 @@ footer {
   gap: 5px;
   padding: 0.5rem;
 }
-
+.contact-info p,
+.reserve p {
+  color: #ff0b0b;
+}
 .hamburger span {
   width: 25px;
   height: 3px;
